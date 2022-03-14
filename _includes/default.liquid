@@ -1,0 +1,18 @@
+---
+siteTitle: Template Website
+---
+
+<!DOCTYPE html>
+<html lang="en">
+{% include 'head' %}
+
+<body>
+	{% include 'nav' %}
+
+	{{ content }}
+
+	{% include 'footer' %}
+	{% include 'footer-scripts' %}
+</body>
+
+</html>
