@@ -4,7 +4,7 @@ module.exports = function(eleventyConfig) {
 	eleventyConfig.addPassthroughCopy("css");
 
 	return {
-		pathPrefix: "/11ty-website-example/",
+		pathPrefix: "/la-mapathon/",
 		dir: {
 			input: "src",
 			output: "docs"
