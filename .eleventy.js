@@ -6,6 +6,7 @@ module.exports = function(eleventyConfig) {
 	return {
 		pathPrefix: "/11ty-website-example/",
 		dir: {
+			input: "src",
 			output: "docs"
 		}
 	}
