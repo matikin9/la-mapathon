@@ -27,7 +27,4 @@ jobs:
       run: |
         git config --global user.name "matikin9"
         git config --global user.email "matikin9@gmail.com"
-        git add .
-        git commit -m 'GH Action - clean and build site'
-        git push
-    
+        git diff --quiet || (git commit -am 'GH Action - clean and build site' && git push -f)
