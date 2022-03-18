@@ -1,5 +1,7 @@
 # la-mapathon
 
+[![Node.js CI](https://github.com/matikin9/la-mapathon/actions/workflows/node.js.yml/badge.svg?branch=main)](https://github.com/matikin9/la-mapathon/actions/workflows/node.js.yml) [![pages-build-deployment](https://github.com/matikin9/la-mapathon/actions/workflows/pages/pages-build-deployment/badge.svg?branch=main)](https://github.com/matikin9/la-mapathon/actions/workflows/pages/pages-build-deployment)
+
 Home
 
 - Register CtA button
